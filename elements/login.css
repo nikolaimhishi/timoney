@@ -1,0 +1,59 @@
+/***************************
+****************************
+options
+****************************
+***************************/
+
+
+
+#signing .link {
+    background: #6a769e;
+    margin-bottom: 9vh;
+}
+#sign-in-links {
+    padding: 0 2em 2em;
+    margin-top: -2em;
+}
+
+#sign-in-links .link {
+    margin: 1em 0 1em;
+    line-height: 2.5;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+
+#sign-in-links .link button {
+    margin: auto;
+    height: 3em;
+    width: 3em;
+    background-size: 2em;
+}
+
+
+/***************************
+****************************
+sign-in
+****************************
+***************************/
+
+.done-signing {
+    display: block;
+    margin: 1em auto 2em;
+    height: 3.5em;
+    width: 10em;
+    line-height: 2.5;
+    background-size: 10em 270%;
+    font-size: 1em;
+    background-position: center;
+    color: #e0e0f3;
+}
+
+.done-signing span {
+    font-size: 1.35em;
+}
+
+#forgot-password {
+    margin: 0 auto;
+    min-height: 3em;
+}

@@ -1,0 +1,162 @@
+/***************************
+****************************
+icons
+****************************
+***************************/
+
+[class*='-icon'] {
+
+	background-size: 1.5em;
+	background-position: center;
+	background-repeat: no-repeat;
+	vertical-align: middle;
+	min-width: 2em;
+	min-height: 2em;
+}
+
+
+/***************************
+****************************
+images
+****************************
+***************************/
+
+.search-icon {
+	background-image: url('../icons/search.png');
+}
+
+
+.cancel-icon {
+	background-image: url('../icons/cancel.png');
+}
+
+
+.ok-icon {
+	background-image: url('../icons/ok.png');
+}
+
+
+.messages-icon {
+	background-image: url('../icons/inbox.png');
+}
+
+
+.mic-icon {
+	background-image: url('../icons/microphone-white.png');
+}
+
+
+.attach-icon {
+	background-image: url('../icons/attach-blue.png');
+}
+
+
+.back-icon {
+	background-image: url('../icons/back.png');
+}
+
+
+.back-navy-icon {
+	background-image: url('../icons/back-navy.png');
+}
+
+
+.forward-icon {
+	background-image: url('../icons/forward-navy.png');
+}
+
+
+.sending-icon {
+	background-image: url('../icons/send.png');
+}
+
+
+.send-icon {
+	background-image: url('../icons/sending.png');
+}
+
+
+.more-navy-icon {
+	background-image: url('../icons/more-navy.png');
+}
+
+
+.plus-icon {
+	background-image: url('../icons/plus-white.png');
+}
+
+
+.closed-eye-icon {
+	background-image: url('../icons/closed-eye-white.png');
+}
+
+
+.open-eye-icon {
+	background-image: url('../icons/open-eye-white.png');
+}
+
+
+.delete-icon {
+	background-image: url('../icons/delete-red.png');
+}
+
+
+.stop-icon {
+	background-image: url('../icons/stop-white.png');
+}
+
+
+.play-icon {
+	background-image: url('../icons/play-white.png');
+}
+
+
+.pause-icon {
+	background-image: url('../icons/pause.png');
+}
+
+
+.more-icon {
+	background-image: url('../icons/more.png');
+}
+
+
+.add-icon {
+	background-image: url('../icons/add.png');
+	background-size: 2em;
+}
+
+
+.skip-back-icon {
+	background-image: url('../icons/icons8-restart-50.png');
+}
+
+
+.skip-forward-icon {
+	background-image: url('../icons/icons8-restart-50.png');
+}
+
+
+.google-icon {
+	background-image: url('../media/google.svg');
+}
+
+
+.mxm-icon {
+	background-image: url('../icons/mxm.svg');
+}
+
+
+.eish-icon {
+	background-image: url('../icons/eish.svg');
+}
+
+
+.haibo-icon {
+	background-image: url('../icons/faces.svg');
+}
+
+
+.haha-icon {
+	background-image: url('../icons/haha.svg');
+}

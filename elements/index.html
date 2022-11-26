@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang='en' id='crayon-root'>
+
+<head>
+
+	<!--SETTINGS-->
+	<meta charset='utf-8'>
+	<meta name='pillowcase' content='#fff'>
+	<link name='manifest' href='manifest.json'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<!--<meta http-equiv='Content-Security-Policy' content="default-src 'self'">-->
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+
+
+	<!--SEO-->
+	<title>pillowcase</title>
+	<meta name='description' content='description of your website/webpage, make sure you use keywords!'>
+
+
+	<!--WHATSAPP-->
+	<meta property='og:site_name' content='Your site name'/>
+	<meta property='og:type' content='article'/>
+	<meta property='og:title' content='The title that will show in whatsapp preview'/>
+	<meta property='og:description' content='A cool description here'/>
+	<meta property='og:url' content='the url to the page'/>
+	<meta property='og:audio' content='the url to the page'/>
+	<meta property='og:image' content='the url to the image preview (size less than 257*257)'/>
+
+
+
+	<!--ASSETS-->
+
+	<link rel='stylesheet' href='../services/theme/css/layout.css' type='text/css'>
+
+
+	<!--LAYOUTS-->
+
+	<link type='text/html' rel='component' href='./home.html'/>
+	<link type='text/html' rel='component' href='./player.html'/>
+	<link type='text/html' rel='component' href='./recorder.html'/>
+	<link type='text/html' rel='component' href='./episode.html'/>
+	<link type='text/html' rel='component' href='./comment.html'/>
+	<link type='text/html' rel='component' href='./settings.html'/>
+	<link type='text/html' rel='component' href='./channel.html'/>
+	<link type='text/html' rel='component' href='./verification.html'/>
+	<link type='text/html' rel='component' href='./login.html'/>
+	<link type='text/html' rel='component' href='./password.html'/>
+	<link type='text/html' rel='component' href='./inbox.html'/>
+	<link type='text/html' rel='component' href='./followers.html'/>
+
+	
+	<!--STYLES-->
+
+	<link type='text/css' rel='stylesheet' href='./home.css'/>
+	<link type='text/css' rel='stylesheet' href='./player.css'/>
+	<link type='text/css' rel='stylesheet' href='./recorder.css'/>
+	<link type='text/css' rel='stylesheet' href='./episode.css'/>
+	<link type='text/css' rel='stylesheet' href='./comment.css'/>
+	<link type='text/css' rel='stylesheet' href='./settings.css'/>
+	<link type='text/css' rel='stylesheet' href='./channel.css'/>
+	<link type='text/css' rel='stylesheet' href='./verification.css'/>
+	<link type='text/css' rel='stylesheet' href='./login.css'/>
+	<link type='text/css' rel='stylesheet' href='./password.css'/>
+	<link type='text/css' rel='stylesheet' href='./inbox.css'/>
+	<link type='text/css' rel='stylesheet' href='follower.css'/>
+
+
+	<!--scriptS-->
+
+	<script type='text/javascript' src='https://polyfill.io/v3/polyfill.min.js?features=es2017%2CArray.prototype.filter%2CArray.prototype.find%2CArray.prototype.findIndex%2CArray.prototype.flat%2CArray.prototype.lastIndexOf%2CArray.prototype.map%2CBlob%2CCustomEvent%2CElement.prototype.dataset%2CEvent%2CHTMLTemplateElement%2CIntersectionObserver%2CIntersectionObserverEntry%2CObject.assign%2CMap%2CEventSource'></script>
+	<script type='text/javascript' src='../services/crayon/addon/localforage.min.js'></script>
+	<script type='text/javascript' src='../services/crayon/addon/filtr.min.js' ></script>
+	<script type='text/javascript' src='../services/crayon/addon/siema.min.js'></script>
+	<script type='module' src='./index.js'></script>
+</head>
+
+<body class='publishers debugging' user-authenticated>
+
+<div id='splash-component' class='column shade-2'>
+	<section id='clock-lady'>
+		<div class='timer-loader'></div>
+	</section>
+</div>
+
+
+<!--INTENTS-->
+<a rel='intent' href='login.html' style='visibility: hidden'></a>
+</body>
+</html>

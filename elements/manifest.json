@@ -1,0 +1,7 @@
+{
+  "name": "pillowcase",
+  "version": "0.0.1",
+  "dependencies": {},
+  "display": "standalone",
+  "orientation": "portrait"
+}

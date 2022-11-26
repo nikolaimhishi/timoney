@@ -1,0 +1,17 @@
+.settings {
+	padding: 0 2em 2em;
+}
+
+#notification-settings div {
+	padding: 1em 2em;
+}
+
+.settings a.pill {
+
+	line-height: 3em;
+	height: 3em;
+}
+
+.settings .text-field {
+	min-width: -webkit-fill-available;
+}

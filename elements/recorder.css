@@ -1,0 +1,105 @@
+/***************************
+****************************
+caption-input
+****************************
+***************************/
+
+#caption-input {
+    font-size: 1.25em;
+    line-height: 1.62;
+    color: #fff;
+    text-align: left;
+    height: 35vh;
+    margin: 13vh 0 5vh;
+    display: block;
+}
+
+#caption-input ::placeholder {
+    padding-top: 20%;
+}
+
+
+
+
+/***************************
+****************************
+@recording
+****************************
+***************************/
+
+.recording #indicate-recording {
+    display: inline-block;
+    animation: flash 1500ms infinite cubic-bezier(0.39, 0.58, 0.57, 1) reverse;
+}
+
+.recording #save-recording {
+    display: inline-block;
+}
+
+.recording #cancel-recording {
+    display: inline-block;
+}
+
+@keyframes flash {
+
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+/***************************
+****************************
+@recorded
+****************************
+***************************/
+
+.recorded #play-recording {
+    display: inline-block;
+}
+
+.recorded #delete-recorded {
+    display: inline-block;
+}
+
+/***************************
+****************************
+@replaying
+****************************
+***************************/
+
+.replaying #pause-recording {
+    display: inline-block;
+}
+
+.replaying #delete-recorded {
+    display: inline-block;
+}
+
+.caption-input {
+    padding: 1em 1em 1px;
+    text-align: left;
+    border-radius: 2em;
+    margin: 1em 0;
+}
+
+.publish.card {
+    border-radius: 3em;
+}
+
+#publish-episode {
+    width: 100%;
+    margin: 2em 0 2em;
+    margin-left: -0.25em;
+    text-align: center;
+    height: 4em;
+    padding: 1em 0;
+    border-radius: 1.5em;
+}

@@ -1,0 +1,113 @@
+#home-component header .avatar {
+    border-radius: 2em;
+    border: solid 3px #6163b3;
+    box-sizing: border-box;
+    font-size: 2.25em;
+}
+
+
+#search-feed {
+    margin: 0 0 -4em;
+    box-shadow: inset 0 -4px 16px 8px #211c409e;
+    padding: 1em 0 6em;
+    border-radius: 4em;
+}
+
+#feed {
+    padding-bottom: 1em;
+    min-height: 25em;
+    position: sticky;
+    top: 5em;
+}
+
+.whats-happening {
+    position: sticky;
+    top: 0;
+}
+
+.whos-coming {
+    min-height: 60%;
+    margin-top: 1.25em;
+    padding-top: 1.75em;
+    box-shadow: 0 -4px 16px 8px #211c4045;
+    border-radius: 0 !important;
+}
+
+.whos-coming:before {
+    content: none;
+}
+
+.guests {
+    height: 80%;
+    overflow: scroll;
+    padding-bottom: 2em;
+}
+
+
+/***************************
+****************************
+  user-authenticated
+****************************
+***************************/
+
+body:not([user-authenticated]) #sign-in-link {
+    box-sizing: border-box;
+    background-size: 8em;
+    background-repeat: no-repeat;
+    background-position: center -3px;
+    border-radius: unset;
+    text-align: left;
+    padding: 1.8em;
+    height: 8em;
+    width: 8em;
+    color: #6a769e;
+    text-shadow: none;
+    display: inline-block;
+    line-height: 4.25;
+}
+
+body:not([user-authenticated]) #guest-greeting {
+    display: inline-block;
+    font-size: 1.75em;
+}
+
+body:not([user-authenticated]) #nickname-greeting,
+body:not([user-authenticated]) #inbox-link,
+body:not([user-authenticated]) #profile-link {
+    display: none;
+}
+
+
+/***************************
+****************************
+         context-panel
+****************************
+***************************/
+
+#guest-greeting,
+#sign-in-link {
+    display: none;
+}
+
+
+#tags a:before {
+    content: '# ';
+    background: no-repeat;
+    display: contents;
+}
+
+
+/***************************
+****************************
+         content-panel
+****************************
+***************************/
+
+#search-bar label input {
+    margin-right: 0.2em;
+}
+
+#home-component .timer-loader {
+    display: block;
+    margin: 3em auto 0;
+}

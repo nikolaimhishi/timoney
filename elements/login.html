@@ -1,0 +1,95 @@
+<main id='login-component' class='page column scrollable elastic shade-2 publishers'>
+	<header class='context-panel'>
+		<div class='row'>
+			<h2>Hi There!</h2>
+			<a class='cancel-icon'></a>
+		</div>
+		<section id='sign-in-links' class="row">
+			<a id='sign-in-tab-link' href='#sign-in-tab' class="link">
+				<button class='-icon' style="background-image: url('../services/theme/media/pencil.png')"></button>
+				<div>Sign In</div>
+			</a>
+			<a id='google-auth-tab-link' class="link">
+				<button class='-icon' style="background-image: url('../services/theme/media/google.svg')"></button>
+				<div>Google</div>
+			</a>
+			<a id='sign-up-tab-link' href='#sign-up-tab' class="link">
+				<button class='-icon' style="background-image: url('../services/theme/media/signUp.png'); background-size: 2.7em;"></button>
+				<div>Sign Up</div>
+			</a>
+		</section>
+	</header>
+	<footer class='content-panel with-tabs'>
+		<ul class='row tabs scrollable elastic overflow-1' style='padding-top: 0;'>
+
+			<li id='sign-in-tab'>
+				<form>
+					<ul class='column scrollable' style='height: 87vh'>
+						<li>
+							<header>
+								<h2>Welcome back</h2>
+							</header>
+							<label class='text-field'>
+								<span class='error-message'>😭 this nickname is already taken!</span>
+								<input required type='text' placeholder='nickname...'>
+								<span class='timer-loader'> </span>
+							</label>
+						</li>
+						<li>
+							<label class='text-field'>
+								<span class='error-message'>🙃 this password looks dodgy, try again!</span>
+								<input required type='password' placeholder='password...'>
+								<span class='timer-loader'></span>
+							</label>
+						</li>
+						<li>
+							<a href='home.html' style='all: unset;'>
+								<button id='sign-in-button' type='submit' class='button done-signing ' style="background-image: url('../services/theme/media/sign.png')">
+									<span>Sign In</span>
+								</button>
+							</a>
+							<a id='forgot-password' class='button'><span>Eish, I forgot my password 😭</span></a>
+						</li>
+					</ul>
+				</form>
+			</li>
+
+			<li id='sign-up-tab'>
+				<form>
+					<ul class='column scrollable'  style='height: 87vh'>
+						<li>
+							<header>
+								<h2>Set Username</h2>
+							</header>
+							<label class='text-field'>
+								<span class='error-message'>😭 this username has already been taken!</span>
+								<input required type='text' placeholder='nickname...'>
+								<span class='timer-loader'> </span>
+							</label>
+						</li>
+						<li>
+							<header>
+								<h2>Set Password</h2>
+							</header>
+							<label class='text-field'>
+								<span class='error-message'>🙄 this password is too short bra!</span>
+								<input required type='password' placeholder='password...'>
+								<span class='timer-loader'></span>
+							</label>
+							<label class='text-field'>
+								<span class='error-message'>🙊 passwords don't match!</span>
+								<input required type='password' placeholder='re-enter...'>
+								<span class='timer-loader'></span>
+							</label>
+						</li>
+						<li>
+							<button id='sign-up-button' class='button done-signing ' style="background-image: url('../services/theme/media/sign.png')">
+								<span>Sign Up</span>
+							</button>
+						</li>
+					</ul>
+				</form>
+			</li>
+		</ul>
+	</footer>
+</main>

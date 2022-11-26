@@ -1,0 +1,77 @@
+#new-comment textarea::placeholder {
+    padding: 0;
+    white-space: nowrap;
+}
+
+
+#player {
+    margin: -14em auto 0;
+    background: #23263a;
+    padding: 1.5em;
+    box-sizing: border-box;
+    max-width: 90%;
+}
+
+#player-component .context-panel {
+    padding: 0;
+}
+
+#player-component .content-panel {
+    /* max-width: 95%; */
+    max-height: calc(100% - 6em);
+}
+
+#player-component nav.episode-wrapper {
+    border: none;
+}
+
+#player-component .episode-title {
+}
+
+#player-controls .button,
+#player-controls button {
+    margin: initial;
+}
+
+#player-controls div .button,
+#player-controls div button {
+    margin: 0 0.5em;
+}
+
+#player-component .text-field {
+    padding: 0.5em 0.5em 0.5em 1em;
+    margin-bottom: 0.5em;
+}
+
+#player-component #search-bar label input {
+    font-size: 16px;
+}
+
+#player-component textarea {
+    max-width: calc(100% - 3em);
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.button.record-or-send,
+button.record-or-send {
+    font-size: 1.25em;
+    background-size: 50%;
+    border-radius: 14px;
+}
+
+#player-component .content-panel {
+    max-height: 100%;
+    background: none;
+}
+
+#player-component .content-panel .column.scrollable {
+    height: calc(100% - 5em);
+}
+
+#episode-caption {
+    max-width: 90%;
+    margin: 0.75em auto 2em;
+    font-size: 1.2em;
+    text-align: center;
+}

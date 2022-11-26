@@ -1,0 +1,40 @@
+/***************************
+****************************
+notification
+****************************
+***************************/
+
+.notification p {
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+
+/***************************
+****************************
+read
+****************************
+***************************/
+
+#messages {
+    padding: 0 1em;
+}
+
+.notification.read {
+    color: rgb(106 118 158);
+    background: none;
+    box-shadow: none;
+    opacity: 0.5;
+}
+
+.notification.read .comment-pretext {
+    all: unset;
+}
+
+.notification .badge {
+    height: 1.65em;
+    min-width: 1.65em;
+    border-radius: 3em;
+    text-align: center;
+}

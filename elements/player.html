@@ -1,0 +1,42 @@
+<main class='page column scrollable elastic shade-2'>
+	<header>
+		<nav class="row navbar ">
+			<div class="link">
+				<a class="button avatar" href="channel.html" style="background-image: url('../services/theme/media/m-6.png');"></a>
+				<h4>Magaye</h4>
+			</div>
+			<a class="button cancel-icon"></a>
+		</nav>
+		<div class="row overflow-1 shade-1 radius-3 sub-drawer">
+			<a class="button episode-reaction" style="font-size: 1.5em;"><b class="heart">❤</b></a>
+			<a class="button messages-icon"></a>
+			<a class="button delete-icon"></a>
+			<a class="button open-eye-icon"></a>
+			<a class="button send-icon"></a>
+		</div>
+	</header>
+	<footer>
+		<ul class="column scrollable overflow-1">
+			<a class="thumbnail button" style="font-size: 2.5vh;margin: 0.5em auto 1em; background-image: url('../services/theme/media/c70079d3893e4229dfbd611d6cf7d362.jpg');">
+				<i class="episode-play-audio play-icon" style="display: none;">0:35</i>
+			</a>
+			<div style='top: -1em; position: sticky; z-index: 3; padding-top: 0; padding-bottom: 0;' class='overflow-1 shade-1'>
+				<p id='episode-caption'>Why do women like money?</p>
+				<div style='margin: 1em auto 2em;'>
+					<form id='new-comment'>
+						<div class='row'>
+							<label class="text-field with-action" style='font-size: 1em;'>
+								<textarea rows='1' placeholder="Write your reply..."></textarea>
+							</label>
+							<a class="button mic-icon radius-3 bg-color-2"></a>
+						</div>
+					</form>
+				</div>
+			</div>
+			{{> comment.html}}
+			{{> comment.html}}
+			{{> comment.html}}
+			{{> comment.html}}
+		</ul>
+	</footer>
+</main>

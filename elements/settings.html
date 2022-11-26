@@ -1,0 +1,100 @@
+<main id='settings-component' class='page column scrollable elastic publishers'>
+	<header>
+		<nav class='row navbar'>
+			<h2>Your Settings</h2>
+			<a class='button ok-icon'></a>
+		</nav>
+	</header>
+	<footer>
+		<ul class='column scrollable settings'>
+
+			<li>
+				<header class='row'>
+					<h3>Personal Details</h3>
+				</header>
+				<label class='text-field radius-3'>
+					<span class='error-message'>🙃 this username has already been taken!</span>
+					<input required type='password' placeholder='username...'>
+					<span class='timer-loader'></span>
+				</label>
+				<label class='text-field radius-3'>
+					<span class='error-message'>🙄 wrong email format!</span>
+					<input required type='email' placeholder='email...'>
+					<span class='timer-loader'></span>
+				</label>
+				<label class='text-field radius-3'>
+					<span class='error-message'>🙊 City!</span>
+					<input required type='date' placeholder='birthday...'>
+					<span class='timer-loader'></span>
+				</label>
+			</li>
+
+			<li id='languages'>
+				<header class='row'>
+					<h3>Your Languages</h3>
+				</header>
+				<div class='row scrollable elastic overflow-1'>
+					<a class='pill text-color-1 shade-2'>English</a>
+					<a class='pill text-color-1 shade-2'>Ndebele</a>
+					<a class='pill text-color-1 shade-2'>French</a>
+					<a class='pill text-color-1 shade-2'>Swati</a>
+					<a class='pill text-color-1 shade-2'>Xhosa</a>
+				</div>
+			</li>
+
+			<li id='notification-settings'>
+				<header class='row'>
+					<h3>Push Notifications</h3>
+				</header>
+				<div class='row radius-3 shade-2'>
+					<p>Receive push notifications has other humans react to your storys?</p>
+					<label class='switch text-color-1'><input name='notifications' type='checkbox'></label>
+				</div>
+			</li>
+
+			<li>
+				<header class='row'>
+					<h3>Change Password</h3>
+				</header>
+				<label class='text-field radius-3'>
+					<span class='error-message'>🙃 this password looks dodgy, try again!</span>
+					<input required type='password' placeholder='old password...'>
+					<span class='timer-loader'></span>
+				</label>
+				<label class='text-field radius-3'>
+					<span class='error-message'>🙄 this password is too short fam!</span>
+					<input required type='password' placeholder='new password...'>
+					<span class='timer-loader'></span>
+				</label>
+				<label class='text-field radius-3'>
+					<span class='error-message'>🙊 passwords don't match!</span>
+					<input required type='password' placeholder='confirm password...'>
+					<span class='timer-loader'></span>
+				</label>
+			</li>
+
+			<li id='other-stuff'>
+				<header class='row'>
+					<h3>Other Stuff</h3>
+				</header>
+				<div class='radius-3 shade-2'>
+					<ul>
+						<li>
+							<a class='button worded'>Privacy Policy</a>
+						</li>
+						<li>
+							<a class='button worded'>Terms of Use</a>
+						</li>
+						<li>
+							<a class='button worded'>Special Thanks</a>
+						</li>
+					</ul>
+				</div>
+			</li>
+
+			<li>
+				<a id='sign-out' class='button shade-2' style=' display: block;margin: 2em auto 0;padding: 1em 2em;'>Sign Out</a>
+			</li>
+		</ul>
+	</footer>
+</main>
