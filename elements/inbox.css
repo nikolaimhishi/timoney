@@ -19,6 +19,7 @@ read
 
 #messages {
     padding: 0 1em;
+    height: 421px;
 }
 
 .notification.read {
@@ -32,9 +33,25 @@ read
     all: unset;
 }
 
-.notification .badge {
+.badge {
     height: 1.65em;
-    min-width: 1.65em;
+    min-width: unset;
     border-radius: 3em;
     text-align: center;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.notification .avatar {
+    max-height: 3em !important;
+    max-width: 3em !important;
+}
+
+.notification a.invisible {
+    display: inherit;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    position: absolute;
+    z-index: 555;
 }

@@ -214,7 +214,7 @@ h4 {
 .bg-color-2 {
   background-color: #6163b3;
 }
-.bg-color-3 {
+.bg-color-1 {
   background-color: #53b5c9;
 }
 /***************************
@@ -551,8 +551,8 @@ button i,
   background-position: center;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  max-height: 3em;
-  max-width: 3em;
+  max-height: 7em;
+  max-width: 7em;
   height: 12vw;
   width: 12vw;
   border-radius: 10em;
@@ -560,6 +560,7 @@ button i,
 .avatar + h3 {
   margin-left: 0.5em;
   display: inline-block;
+  max-width: max-content;
 }
 .picture {
   background-position: center;

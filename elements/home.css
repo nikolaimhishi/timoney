@@ -1,8 +1,14 @@
 #home-component header .avatar {
-    border-radius: 2em;
+    border-radius: 2.2em;
     border: solid 3px #6163b3;
     box-sizing: border-box;
-    font-size: 2.25em;
+    font-size: 0.95em;
+    max-width: 6em;
+    max-height: 6em;
+}
+
+#inbox-link {
+    min-width: 1.65em;
 }
 
 
@@ -21,16 +27,18 @@
 }
 
 .whats-happening {
-    position: sticky;
-    top: 0;
+    /* position: sticky; */
+    /* top: 0; */
+    /* margin: 5em 0; */
 }
 
 .whos-coming {
-    min-height: 60%;
-    margin-top: 1.25em;
-    padding-top: 1.75em;
-    box-shadow: 0 -4px 16px 8px #211c4045;
-    border-radius: 0 !important;
+    /* min-height: 57%; */
+    /* margin-top: 1.25em; */
+    /* padding: 3.75em 0 0; */
+    /* box-shadow: 0 -4px 16px 8px #211c4045; */
+    /* border-radius: 0 !important; */
+    /* box-sizing: content-box; */
 }
 
 .whos-coming:before {

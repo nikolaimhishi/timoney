@@ -2,8 +2,8 @@
 	<header>
 		<div class='row'>
 			<div>
-				<h1 id='nickname-greeting'>Hi, <br> Joshua</h1>
-				<h1 id='guest-greeting'>Welcome to <br> CFF Activities</h1>
+				<h1 id='nickname-greeting'>Hi, <br> Jordan</h1>
+				<h1 id='guest-greeting'>Welcome to <br> Timoney</h1>
 			</div>
 			<a id='inbox-link' href='inbox.html' class='button badge bg-color-2'>6</a>
 			<div>
@@ -14,55 +14,61 @@
 		<form id='search-feed'>
 			<div class='row'>
 				<label id='search-link' class='text-field with-action'>
-					<input type='search' placeholder='Search Activity...'>
+					<input type='search' placeholder='Add qualifications...'>
 				</label>
 				<a id='recorder-link' href='#' class='button bg-color-2'><i class='send-icon'></i></a>
 			</div>
 			<div id='tags' class='row scrollable'>
-				<a class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-8.png")'>Poetry</a>
-				<a class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-9.png")'>Rap</a>
-				<a class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/f-1.png")'>Interviews</a>
-				<a class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-6.png")'>Opinions</a>
-				<a class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-9.png")'>Confessions</a>
+				<a href='#careers' class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-8.png")'>Primary</a>
+				<a href='#careers' class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-9.png")'>Highschool</a>
+				<a href='#careers' class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/f-1.png")'>Undergrad</a>
+				<a href='#careers' class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-6.png")'>Postgrad</a>
+				<a href='#careers' class='pill text-color-1 shade-2' style='background-image: url("../services/theme/media/m-9.png")'>None</a>
 			</div>
 		</form>
 	</header>
-	<footer>
-		<div class='column scrollable'>
-			<div class='row whats-happening'>
-				<h2>Poetry</h2>
+	<footer style='height: fit-content;'>
+		<div class='column'>
+			<div id='careers' class='row whats-happening'>
+				<h2>Recommended Careers</h2>
 			</div>
 			<ul id='messages' class='column scrollable' data-template='notification'>
 				<li class='notification shade-2 radius-3 link'>
-					<div class='row'>
-						<a class='button avatar' style="background-image: url('../services/theme/media/m-4.png')"></a>
-						<p>Tapelo and 5 others reacted<span class='button haha-icon' style='font-size: 70%;'></span> to your story.</p>
-						<b class='badge bg-color-2'>2</b>
-					</div>
+					<a href='#courses' class='invisible'>
+						<div class='row'>
+							<a class='button avatar' style="background-image: url('../services/theme/media/m-4.png')"></a>
+							<p>Data Engineer<span class='button haha-icon' style='font-size: 70%;'></span></p>
+							<b class='badge bg-color-2'>R405,278/y</b>
+						</div>
+					</a>
 				</li>
 				<li class='notification shade-2 radius-3 link for-comment'>
-					<div class='row'>
-						<a class='button avatar' style="background-image: url('../services/theme/media/m-5.png')"></a>
-						<p>Mpendulo and 2 others commented on your story.</p>
-						<b class='badge bg-color-2'>3</b>
-					</div>
+					<a href='#courses' class='invisible'>
+						<div class='row'>
+							<a class='button avatar' style="background-image: url('../services/theme/media/m-5.png')"></a>
+							<p>Data Analyst</p>
+							<b class='badge bg-color-2'>R344,278/y</b>
+						</div>
+					</a>
 				</li>
 				<li class='notification shade-2 radius-3 link'>
-					<div class='row'>
-						<a class='button avatar' style="background-image: url('../services/theme/media/m-4.png')"></a>
-						<p>Zinhle and 4 others started following your channel.</p>
-						<b class='badge bg-color-2'>8</b>
-					</div>
+					<a href='#courses' class='invisible'>
+						<div class='row'>
+							<a class='button avatar' style="background-image: url('../services/theme/media/m-4.png')"></a>
+							<p>Data Engineering</p>
+							<b class='badge bg-color-2'>R320,278/y</b>
+						</div>
+					</a>
 				</li>
 			</ul>
-			<footer class='whos-coming'>
-				<div class='row'>
-					<h2>Who's coming?</h2>
-				</div>
-				<ul class='guests'>
-					{{> comment.html}}
-				</ul>
-			</footer>
 		</div>
 	</footer>
+	<footer id='courses' class='whos-coming'>
+	<div class='row'>
+		<h2>Recommended Courses</h2>
+	</div>
+	<ul class='guests'>
+		{{> comment.html}}
+	</ul>
+</footer>
 </main>
