@@ -188,7 +188,7 @@ h4 {
 ****************************
 ***************************/
 .text-color-1 {
-  color: #f2a61c;
+  color: #f2a61c !important;
 }
 .text-color-2 {
   color: palevioletred;
